@@ -115,7 +115,7 @@ function initWalls() {
 function draw() {
   gameFrames++;
 
-  if (gameFrames <= 100) {
+  if (gameFrames <= 800) {
     // Draw the background gif stretched to fill the canvas.
     image(bgImg, 0, 0, width, height);
     // Move the wall rows downward.
@@ -134,7 +134,7 @@ function draw() {
     }
   }
 
-  if (gameFrames > 100) {
+  if (gameFrames > 800) {
     image(spacewin, 0, 0, width, height);
     fill(255);
     textSize(50);
