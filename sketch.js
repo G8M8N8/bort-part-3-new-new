@@ -67,7 +67,7 @@ function setup() {
   initWalls();
   frameRate(60);
 
-  link = createA('https://example.com', 'Go to the next adventure!');
+  link = createA('https://alexhart0705-ai.github.io/bortbort/', 'Go to the next adventure!');
   link.attribute('target', '_blank');
   link.position(width / 2 - 80, height * 0.3);
   link.style('display', 'none');
